@@ -3,7 +3,3 @@ def ounces_to_grams(ounces)
   ounces.to_f * GRAMS_PER_OUNCE
 end
 
-def meal_choice(veg, starch, protein="meat")
-  meal = "A plate of #{protein} with #{veg} and #{starch}." puts "What a nutritious meal!" 
-  puts meal 
-end
